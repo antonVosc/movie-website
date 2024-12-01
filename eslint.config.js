@@ -1,7 +1,6 @@
 import pluginJs from '@eslint/js';
 import prettierConfig from 'eslint-config-prettier';
 import prettierPlugin from 'eslint-plugin-prettier';
-import { rules } from 'eslint-plugin-react';
 import pluginReactConfig from 'eslint-plugin-react/configs/recommended.js';
 import globals from 'globals';
 
@@ -20,6 +19,7 @@ export default [
 
     rules: {
       'prettier/prettier': 'error',
+      'react/prop-types': 0,
     },
   },
 ];
