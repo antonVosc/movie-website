@@ -1,8 +1,8 @@
 import {AutoAwesome, Bloodtype, FamilyRestroom, Fort, LiveTv, LocalMovies, MenuBook, MoodBad, Pool, Reorder, StarPurple500, VolunteerActivism } from '@mui/icons-material';
-  
+
 export const iconComponents = {AutoAwesome, Bloodtype, FamilyRestroom, LiveTv, MenuBook, MoodBad, Pool, StarPurple500, VolunteerActivism, LocalMovies, Reorder, Fort, };
-  
-  export const TOP_LISTS = [
+
+export const TOP_LISTS = [
     {
       title: 'TOP 100 Popular Movies',
       icon: 'AutoAwesome',
@@ -23,7 +23,7 @@ export const iconComponents = {AutoAwesome, Bloodtype, FamilyRestroom, LiveTv, M
       icon: 'MenuBook',
       url: '/comics',
     },
-    {
+    { 
       title: 'Family',
       icon: 'FamilyRestroom',
       url: '/family',
@@ -46,24 +46,24 @@ export const iconComponents = {AutoAwesome, Bloodtype, FamilyRestroom, LiveTv, M
     {
       title: 'Popular Series',
       icon: 'LiveTv',
-      url: '/popular-serials',
+      url: '/popular-series',
     },
-  ];
-  
-  export const MOVIE_LISTS = [
-    {
-      title: 'Movies',
-      icon: 'LocalMovies',
-      url: '/films',
-    },
-    {
-      title: 'Series',
-      icon: 'Reorder',
-      url: '/serials',
-    },
-    {
-      title: 'Cartoons',
-      icon: 'Fort',
-      url: '/cartoons',
-    },
-  ];
+];
+
+export const MOVIE_LISTS = [
+  {
+    title: 'Movies',
+    icon: 'LocalMovies',
+    url: '/films',
+  },
+  {
+    title: 'Series',
+    icon: 'Reorder',
+    url: '/series',
+  },
+  {
+    title: 'Cartoons',
+    icon: 'Fort',
+    url: '/cartoons',
+  },
+];
