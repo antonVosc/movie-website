@@ -11,7 +11,6 @@ export default function Layout() {
       <Box sx={{ p: 4 }} />
         <Navbar />
         <Outlet />
-        
         <Footer />
     </Container>
   );
