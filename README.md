@@ -10,8 +10,7 @@ git clone https://github.com/antonVosc/movie-website.git
 cd movie-website/
 ```
 
-3.
-Follow the instructions given in env.example file
+3. Follow the instructions given in env.example file
 
 4.
 ```
