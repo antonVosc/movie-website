@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
     contries: '',
@@ -16,4 +16,4 @@ export const currentQuerySlice = createSlice({
     },
 });
 
-export default counterSlice.reducer;
+export default currentQuerySlice.reducer;

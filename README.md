@@ -11,11 +11,15 @@ cd movie-website/
 ```
 
 3.
+Follow the instructions given in env.example file
+
+4.
 ```
 npm install
 ```
 
-4.
+
+5.
 ```
 npm run dev
 ```
