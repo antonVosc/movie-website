@@ -1,6 +1,6 @@
-import {AutoAwesome, Bloodtype, FamilyRestroom, Fort, LiveTv, LocalMovies, MenuBook, MoodBad, Pool, Reorder, StarPurple500, ViewCarousel, VolunteerActivism } from '@mui/icons-material';
+import {AutoAwesome, Bloodtype, Fort, LocalMovies, MenuBook, Reorder, StarPurple500, } from '@mui/icons-material';
 
-export const iconComponents = {AutoAwesome, Bloodtype, FamilyRestroom, LiveTv, MenuBook, MoodBad, Pool, StarPurple500, VolunteerActivism, LocalMovies, Reorder, Fort, };
+export const iconComponents = {AutoAwesome, Bloodtype, MenuBook, StarPurple500, LocalMovies, Reorder, Fort, };
 
 export const TOP_LISTS = [
     {
@@ -26,48 +26,6 @@ export const TOP_LISTS = [
       icon: 'MenuBook',
       url: '/comics',
       value: 'COMICS_THEME',
-    },
-    {
-      title: 'Releases',
-      icon: 'LocalMovies',
-      url: '/releases',
-      value: 'CLOSES_RELEASES',
-    },
-    { 
-      title: 'Family',
-      icon: 'FamilyRestroom',
-      url: '/family',
-      value: 'FAMILY',
-    },
-    {
-      title: 'Oscar Winners',
-      icon: 'LocalMovies',
-      url: '/oskar',
-      value: 'OSKAR_WINNERS_2021',
-    },
-    {
-      title: 'Romantics',
-      icon: 'VolunteerActivism',
-      url: '/romantic',
-      value: 'LOVE_THEME',
-    },
-    {
-      title: 'Zombies',
-      icon: 'MoodBad',
-      url: '/zombie',
-      value: 'ZOMBIE_THEME',
-    },
-    {
-      title: 'Catastrophe',
-      icon: 'Pool',
-      url: '/catastrophe',
-      value: 'CATASTROPHE_THEME',
-    },
-    {
-      title: 'Popular Series',
-      icon: 'LiveTv',
-      url: '/popular-series',
-      value: 'POPULAR_SERIES',
     },
 ];
 
