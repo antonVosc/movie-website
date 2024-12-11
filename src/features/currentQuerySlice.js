@@ -1,19 +1,18 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    contries: '',
-    genreId: '',
-    order: 'YEAR',
-    type: '',
-    year: '',
-    page: 1,
+  contries: "",
+  genreId: "",
+  order: "YEAR",
+  type: "",
+  year: "",
+  page: 1,
 };
 
 export const currentQuerySlice = createSlice({
-    name: 'currentQuerySlice',
-    initialState,
-    reducers: {
-    },
+  name: "currentQuerySlice",
+  initialState,
+  reducers: {},
 });
 
 export default currentQuerySlice.reducer;
