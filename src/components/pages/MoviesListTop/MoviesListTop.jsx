@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useGetFilmsTopQuery } from "../../../services/kinoposkApi";
+import React, { useEffect, useState } from "react";
+import { useGetFilmsTopQuery } from "../../../services/kinopoiskApi";
 import { TOP_LISTS } from "../../../constants";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Button, Stack, Typography } from "@mui/material";
@@ -15,6 +15,10 @@ export default function MoviesListTop() {
     type: movie_type.value,
     page,
   });
+
+  useEffect(() => {
+    setPage(1);
+  }, [location]);
 
   if (error) return <p>Some error</p>;
   if (isLoading) return <p>Loading...</p>;
